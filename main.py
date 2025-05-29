@@ -10,7 +10,7 @@ app = Flask(__name__)
 app.secret_key = os.environ.get("FLASK_SECRET_KEY", "fallback_dev_secret_key")
 
 # Dataset path
-DATASET_PATH = "C:/Agent/DATASET_CLEANED.xlsx"
+DATASET_PATH = "DATASET_CLEANED.xlsx"
 
 # JSON file for persisting unread messages count
 UNREAD_FILE = "unread_messages.json"
